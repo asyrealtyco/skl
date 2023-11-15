@@ -14,13 +14,14 @@
         header {
             text-align: center;
             margin-bottom: 20px;
+            transition: background-color 0.3s ease; /* Smooth transition for background color */
         }
 
-        h1 {
-            color: #D32F2F; /* Red text color */
+        header:hover {
+            background-color: #F44336; /* Red background color on hover */
         }
 
-        p {
+        h1, p {
             color: #D32F2F; /* Red text color */
         }
 
@@ -32,6 +33,11 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            transition: background-color 0.3s ease; /* Smooth transition for background color */
+        }
+
+        button:hover {
+            background-color: #FF5722; /* Orange background color on hover */
         }
 
         section {
@@ -52,6 +58,11 @@
         li {
             color: #D32F2F; /* Red text color */
             margin-bottom: 5px;
+            transition: transform 0.3s ease; /* Smooth transition for transform property */
+        }
+
+        li:hover {
+            transform: scale(1.1); /* Scale the list item on hover */
         }
     </style>
 </head>
