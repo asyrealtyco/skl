@@ -8,7 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            background-color: #FFEB3B; /* Yellow background color */
+            background-color: #FFFFFF; /* White background color */
         }
 
         header {
@@ -18,7 +18,7 @@
         }
 
         header:hover {
-            background-color: #F44336; /* Red background color on hover */
+            background-color: #D32F2F; /* Red background color on hover */
         }
 
         h1, p {
@@ -31,15 +31,18 @@
             padding: 8px 12px; /* Adjust padding for button size */
             font-size: 14px; /* Adjust font size for button text */
             border: none;
-            border-radius: 4px;
+            border-radius: 3px;
             cursor: pointer;
-            transition: background-color 0.3s ease; /* Smooth transition for background color */
+            transition: background-color 2s ease; /* Smooth transition for background color */
         }
 
         button:hover {
             background-color: #FF5722; /* Orange background color on hover */
         }
-
+        a {
+            color: #FFF; /* White text color for hyperlinks */
+            text-decoration: none; /* Remove underline from hyperlinks */
+        }
         section {
             margin-bottom: 30px;
         }
@@ -62,7 +65,7 @@
         }
 
         li:hover {
-            transform: scale(1.1); /* Scale the list item on hover */
+            transform: scale(1.01); /* Scale the list item on hover */
         }
     </style>
 </head>
@@ -70,8 +73,12 @@
 
     <header>
         <h1>Max and Maxi</h1>
-        <p>Your brief introduction or tagline goes here.</p>
-        <button>My Button</button>
+        <p>"The only way to do great work is to love what you do." - Steve Jobs</p>
+        <nav>
+            <button><a href="index.html">Home</a></button>
+            <button><a href="about.html">About Me</a></button>
+            <!-- Add other navigation links as needed -->
+            <button>My Button</button>
     </header>
 
     <section id="skills">
