@@ -3,35 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Max and Maxi</title>
+    <title>Max and Maxi - Personal Webpage</title>
     <style>
-        /* Your CSS styles go here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #FFFFFF; /* White background color */
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            transition: background-color 0.3s ease; /* Smooth transition for background color */
+        }
+
+        header:hover {
+            background-color: #D32F2F; /* Red background color on hover */
+        }
+
+        h1, p {
+            color: #D32F2F; /* Red text color */
+        }
+
+        button {
+            background-color: #D32F2F; /* Red background color */
+            color: #FFF; /* White text color */
+            padding: 8px 12px; /* Adjust padding for button size */
+            font-size: 14px; /* Adjust font size for button text */
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 2s ease; /* Smooth transition for background color */
+        }
+
+        button:hover {
+            background-color: #FF5722; /* Orange background color on hover */
+        }
+        a {
+            color: #FFF; /* White text color for hyperlinks */
+            text-decoration: none; /* Remove underline from hyperlinks */
+        }
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #D32F2F; /* Red text color */
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            color: #D32F2F; /* Red text color */
+            margin-bottom: 5px;
+            transition: transform 0.3s ease; /* Smooth transition for transform property */
+        }
+
+        li:hover {
+            transform: scale(1.01); /* Scale the list item on hover */
+        }
     </style>
 </head>
 <body>
 
     <header>
         <h1>Max and Maxi</h1>
-        <p>Your brief introduction or tagline goes here.</p>
-        <button>My Button</button>
+        <p>"The only way to do great work is to love what you do." - Steve Jobs</p>
+        <nav>
+            <button><a href="index.html">Home</a></button>
+            <button><a href="about.html">About Me</a></button>
+            <!-- Add other navigation links as needed -->
+            <button>My Button</button>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                Welcome to my "About Me" page. Here, you can provide more details about yourself, your background, interests, and anything else you'd like to share.
-            </p>
-            <!-- Add more content about yourself -->
-        </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
 
-        <!-- Add more sections or content as needed -->
-
-    </main>
-
-    <footer>
-        <p>Contact information or copyright details go here.</p>
-    </footer>
+    <!-- Add more sections like Projects, Contact, etc., if desired -->
 
 </body>
 </html>
