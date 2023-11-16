@@ -14,15 +14,24 @@
         header {
             text-align: center;
             margin-bottom: 20px;
-            transition: background-color 0.3s ease; /* Smooth transition for background color */
-        }
-
-        header:hover {
-            background-color: #D32F2F; /* Red background color on hover */
         }
 
         h1, p {
             color: #D32F2F; /* Red text color */
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #FFF;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
         }
 
         button {
@@ -31,41 +40,43 @@
             padding: 8px 12px; /* Adjust padding for button size */
             font-size: 14px; /* Adjust font size for button text */
             border: none;
-            border-radius: 3px;
+            border-radius: 4px;
             cursor: pointer;
-            transition: background-color 2s ease; /* Smooth transition for background color */
         }
 
-        button:hover {
-            background-color: #FF5722; /* Orange background color on hover */
-        }
-        a {
-            color: #FFF; /* White text color for hyperlinks */
-            text-decoration: none; /* Remove underline from hyperlinks */
-        }
-        section {
-            margin-bottom: 30px;
+        main {
+            display: flex;
+            flex-direction: column; /* Change flex direction to column */
+            align-items: center; /* Center items horizontally */
         }
 
-        h2 {
-            color: #D32F2F; /* Red text color */
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            color: #D32F2F; /* Red text color */
-            margin-bottom: 5px;
+        .blog-post {
+            width: 100%; /* Set width to 100% for full width */
+            max-width: 600px; /* Add a max-width for better readability */
+            background-color: #FFF;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
             transition: transform 0.3s ease; /* Smooth transition for transform property */
         }
 
-        li:hover {
-            transform: scale(1.01); /* Scale the list item on hover */
+        .blog-post:hover {
+            transform: scale(1.05); /* Scale the card on hover */
+        }
+
+        h3 {
+            color: #D32F2F; /* Red text color */
+            margin-bottom: 10px;
+        }
+
+        .post-meta {
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #333;
         }
     </style>
 </head>
@@ -77,12 +88,11 @@
         <nav>
             <button><a href="index.html">Home</a></button>
             <button><a href="about.html">About Me</a></button>
-            <button><a href="contact.html">Contact</a></button>
             <button><a href="blog.html">Blog</a></button>
             <!-- Add other navigation links as needed -->
             <button>My Button</button>
         </nav>
-        
+
     </header>
 
     <main>
@@ -104,6 +114,55 @@
                 <p class="post-meta">Published on February 15, 2023</p>
                 <p>
                     This is the content of the second blog post. Feel free to customize and add more posts as needed.
+                </p>
+            </article>
+
+            <!-- New Blog Post -->
+            <article class="blog-post">
+                <h3>New Blog Post Title</h3>
+                <p class="post-meta">Published on [Insert Your Date]</p>
+                <p>
+                    This is the content of the new blog post. Customize the title, publication date, and content to reflect your new post.
+                </p>
+            </article>
+
+
+            <!-- New Blog Post -->
+            <article class="blog-post">
+                <h3>New Blog Post Title</h3>
+                <p class="post-meta">Published on [Insert Your Date]</p>
+                <p>
+                    This is the content of the new blog post. Customize the title, publication date, and content to reflect your new post.
+                </p>
+            </article>
+
+
+            <!-- New Blog Post -->
+            <article class="blog-post">
+                <h3>New Blog Post Title</h3>
+                <p class="post-meta">Published on [Insert Your Date]</p>
+                <p>
+                    This is the content of the new blog post. Customize the title, publication date, and content to reflect your new post.
+                </p>
+            </article>
+
+
+            <!-- New Blog Post -->
+            <article class="blog-post">
+                <h3>New Blog Post Title</h3>
+                <p class="post-meta">Published on [Insert Your Date]</p>
+                <p>
+                    This is the content of the new blog post. Customize the title, publication date, and content to reflect your new post.
+                </p>
+            </article>
+
+
+            <!-- New Blog Post -->
+            <article class="blog-post">
+                <h3>New Blog Post Title</h3>
+                <p class="post-meta">Published on [Insert Your Date]</p>
+                <p>
+                    This is the content of the new blog post. Customize the title, publication date, and content to reflect your new post.
                 </p>
             </article>
 
